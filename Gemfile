@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'puma'
-gem 'sinatra', require: nil
+gem 'sinatra', '~> 1.4.8', require: nil
 gem 'sinatra_auth_github'
 
 gem 'sidekiq'
