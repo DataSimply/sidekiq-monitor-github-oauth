@@ -1,9 +1,8 @@
 # Sidekiq Monitor Github OAuth
 
-[![Dependency Status](https://gemnasium.com/badges/github.com/TangRufus/sidekiq-monitor-github-oauth.svg)](https://gemnasium.com/github.com/TangRufus/sidekiq-monitor-github-oauth)
-[![Code Climate](https://codeclimate.com/github/TangRufus/sidekiq-monitor-github-oauth/badges/gpa.svg)](https://codeclimate.com/github/TangRufus/sidekiq-monitor-github-oauth)
 [![License-GPLv2-blue](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://github.com/TangRufus/sidekiq-monitor-github-oauth/blob/master/LICENSE)
 
+Forked by johnksawers to update ruby and gem versions
 
 A tiny Github-OAuth protected Sinatra app to display the current state of a Sidekiq installation.
 

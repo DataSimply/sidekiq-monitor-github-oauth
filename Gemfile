@@ -2,15 +2,15 @@
 
 source 'https://rubygems.org'
 
-gem 'puma', '~> 3.4.0'
-gem 'sinatra', '~> 1.4', '>= 1.4.7', require: nil
-gem 'sinatra_auth_github', '~> 1.2'
+gem 'puma'
+gem 'sinatra', require: nil
+gem 'sinatra_auth_github'
 
-gem 'sidekiq', '~> 4.1', '>= 4.1.2'
+gem 'sidekiq'
 
 group :development do
-  gem 'dotenv', '~> 2.1', '>= 2.1.1'
+  gem 'dotenv'
   gem 'rubocop', '>= 0.45.0', '< 2'
 end
 
-ruby '2.3.3'
+ruby '2.4.4'
