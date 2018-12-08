@@ -35,3 +35,5 @@ build/
 
 # don't version the local config
 .env
+
+.idea
